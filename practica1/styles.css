@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    background: url(http://www.solofondos.com/wp-content/uploads/2015/11/Fondos-para-p%C3%A1ginas-web.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.text-align {
+    text-align: center;
+    color: antiquewhite;
+}
+
+
+
+    

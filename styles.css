@@ -1,0 +1,165 @@
+@import url("http://fonts.gogleapis.com/css?family=Oswald:400,700");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif; 
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #434750;
+    flex-direction: column;
+}
+.nombre {
+    position: absolute;
+    top: 0;
+    color: #F0D998;
+    text-shadow: 4px 4px black;
+    font-family: ;
+
+}
+ul {
+    position: relative;
+    transform: skewY(-15deg);
+   
+}
+ul li {
+    position: relative;
+    list-style: none;
+    width: 200px;
+    background: #3e3f46;
+    padding: 15px;
+    z-index: var(--i);
+    transition: 0.5s;
+}
+ul li:hover {
+    background: #33a3ee;
+    transform: translateX(-50px);
+}
+ul li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -40px;
+    width: 40px;
+    height: 100%;
+    background: #2e3133;
+    transform-origin: right;
+    transform: skewY(45deg);
+    transition: 0.5s;
+}
+ul li:hover::before {
+    background: #1f5378;
+}
+ul li::after {
+    content: "";
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: #35383e;
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: 0.5s;
+}
+ul li:hover::after {
+    background: #2982b9;
+}
+ul li a {
+    text-decoration: none;
+    color: #999;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+ul li:hover a{
+    color: #fff;
+} 
+ul li:last-child::after {
+    box-shadow: -120px 120px 20px rgba(0,0,0,0.25);
+} 
+ ul li:nth-child(1):hover {
+    background: var(--clr); 
+}
+ul li:nth-child(1):hover::before {
+    background: #1DD15C;
+}
+ul li:nth-child(1):hover::after {
+    background: #18E68F ;
+}   
+
+
+ ul li:nth-child(2):hover {
+    background: var(--clr); 
+}
+ul li:nth-child(2):hover::before {
+    background: #D1CB19;
+}
+ul li:nth-child(2):hover::after {
+    background: #EBD007;
+}   
+
+ ul li:nth-child(3):hover {
+    background: var(--clr); 
+}
+ul li:nth-child(3):hover::before {
+    background: #FFC49A;
+}
+ul li:nth-child(3):hover::after {
+    background: #E8D399;
+}   
+
+ ul li:nth-child(4):hover {
+    background: var(--clr); 
+}
+ul li:nth-child(4):hover::before {
+    background: #FF009E;
+}
+ul li:nth-child(4):hover::after {
+    background: #FF27B7;
+}   
+
+ ul li:nth-child(5):hover {
+    background: var(--clr); 
+}
+ul li:nth-child(5):hover::before {
+    background: #A96FFF;
+}
+ul li:nth-child(5):hover::after {
+    background: #9E86EB;
+}
+
+ ul li:nth-child(6):hover {
+    background: var(--clr); 
+}
+ul li:nth-child(6):hover::before {
+    background: #7694DB;
+}
+ul li:nth-child(6):hover::after {
+    background: #77BCF2;
+}
+
+ul li:nth-child(7):hover {
+    background: var(--clr); 
+}
+ul li:nth-child(7):hover::before {
+    background: #DB721D;
+}
+ul li:nth-child(7):hover::after {
+    background: #E86C13;
+}
+
+ul li:nth-child(8):hover {
+    background: var(--clr); 
+}
+ul li:nth-child(8):hover::before {
+    background: #00DB87;
+}
+ul li:nth-child(8):hover::after {
+    background: #00EB3B;
+}
